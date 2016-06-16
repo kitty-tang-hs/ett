@@ -1,0 +1,35 @@
+{
+  "name": "ett",
+  "version": "0.0.1",
+  "description": "Dave Seah's desktop version of emergent task timer built on top of electron.io",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "productivity",
+    "Electron",
+    "time",
+    "management"
+  ],
+  "author": "Kitty Tang / Dave Andrew",
+  "license": "ISC",
+  "dependencies": {
+    "electron-prebuilt": "1.2.2",
+    "react": "15.1.0"
+  },
+  "devDependencies": {
+    "babel": "6.5.2",
+    "babel-core": "6.9.1",
+    "babel-loader": "6.2.4",
+    "css-loader": "0.23.1",
+    "electron-packager": "7.0.4",
+    "electron-rebuild": "1.1.5",
+    "less": "2.7.1",
+    "less-loader": "2.2.3",
+    //"node-libs-browser": "1.0.0",  //not exactly sure if we need this
+    "style-loader": "0.13.1",
+    "webpack": "1.13.1",
+    "webpack-dev-server": "1.14.1"
+  }
+}
