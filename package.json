@@ -4,7 +4,8 @@
   "description": "Dave Seah's desktop version of emergent task timer built on top of electron.io",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron main.js"
   },
   "keywords": [
     "productivity",
@@ -27,9 +28,12 @@
     "electron-rebuild": "1.1.5",
     "less": "2.7.1",
     "less-loader": "2.2.3",
-    //"node-libs-browser": "1.0.0",  //not exactly sure if we need this
     "style-loader": "0.13.1",
     "webpack": "1.13.1",
     "webpack-dev-server": "1.14.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kitty-tang-hs/ett"
   }
 }
